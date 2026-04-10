@@ -1,4 +1,5 @@
-const Teoria = (props) => {
+// const Teoria = (props) => {
+  const Teoria = ({comisionProps, moduloProps}) => {
   return (
     <section>
       <h2>Teoria de React</h2>
@@ -28,7 +29,7 @@ const Teoria = (props) => {
         automáticamente en la interfaz de usuario.
       </p>
       <div className="alert alert-primary" role="alert">
-        Curso fullStack comisión: {props.comisionProps} {props.moduloProps}
+        Curso fullStack comisión: {comisionProps} {moduloProps}
       </div>
     </section>
   );
