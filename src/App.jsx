@@ -1,7 +1,14 @@
-function App() {
+import Teoria from "./componentes/Teoria";
 
-  return <h1>Hola mundo</h1>
-    
+function App() {
+  return (
+    <main className="container my-3">
+      <h1 className="text-center">Hola mundo con React</h1>
+      <Teoria />
+      
+    </main>
+  );
 }
 
-export default App
+
+export default App;
